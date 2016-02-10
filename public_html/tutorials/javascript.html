@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<title>MDI - JavaScript Tuts </title>
+		<meta name="Description" content="Mark Dolan's javaScript Tutorials">
+		<meta charset="utf-8">
+
+<!-- JavaScript -->
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/app.js"></script><!-- Brings in menu bar, links, and footer -->
+		<script src="../js/respond.js"></script>
+
+<!-- Bootstrap -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS -->
+		<link href="../css/style.css" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- Navigation Bar -->
+		<!-- <script>$(".container").append(nav_string.join(" "));</script> -->
+
+<!-- row 2: header Main Content-->
+<div id="about_me" class="row">
+	<div class="col-xs-12">
+	<h3>JavaScript Tutorials</h3>
+	</div>
+	<div class="col-xs-12">
+		<h3>Introduction to JavaScript</h3>
+		<p>JavaScript is a high-level, dynamic, untyped interpreted programming language.  The standardized version of the language is called <a href="http://www.ecmascript.org/">ECMAScript</a>.The minimal API for the core JavaScript language does not include any input or output functionality.  This is the responsibility of the host environment such as a web browser.  JavaScript performs automatic garbage collection.</p>
+	</div>
+	<div class="col-xs-12">
+		<h3>Core JavaScript</h3>
+	</div>
+	<div class="col-xs-12">
+		<h3>Lexical Structure</h3>
+		
+		<h4>Character Set</h4>
+		<p>JavaScript programs are written using the Unicode character set.  JavaScript is a case-sensitive language.  JavaScript ignores whitespace between tokens.</p>
+		
+		<h4>Reserved Words</h4>
+		<p>The following are reserved words for ECMAScript 5</p>
+		<p>break case catch class const continue debugger default delete do else export extends finally for function if import in instanceof new return super switch this throw try typeof var void while with yield</p>
+		<p>The following are reserved words within strict mode cose</p>
+		<p>implements interface package private protected public</p>
+		<p>The following are reserved words for a future language extension</p>
+		<p>await enum</p>
+		<p>JavaScript is a high-level, dynamic, untyped interpreted programming language.  The standardized version of the language is called <a href="http://www.ecmascript.org/">ECMAScript</a>.The minimal API for the core JavaScript language does not include any input or output functionality.  This is the responsibility of the host environment such as a web browser.</p>
+		
+		<h4>Optional Semicolons</h4>
+		<p>This means that if you chose to omit semicolons at the end of a line, it will treat the line break as a semicolon if it can't parse the next bit of code.  If you choose to do this, you need to be careful with lines starting with "(" or "[".  Line breaks are always treated as semicolons with the reserved words "break", "continue", "return", and prefix and postfix operators "++" and "--".</p>
+	</div>
+	<div class="col-xs-12">
+		<h3>Types, Values, and Variables</h3>
+		
+		<h4>Types</h4>
+		<ul>
+		<li>primitive types - immutable</li>
+			<ul>
+				<li>Numbers</li>
+				<li>Strings</li>
+				<li>Booleans</li>
+				<li>null</li>
+				<li>undefined</li>
+			</ul>
+		<li>object types - mutable</li>
+		<p>A collection of properties where each property has a name and a value</p>
+		</ul>
+		
+		<h4>Special Objects</h4>
+		<ul>
+		<li>Global Object</li>
+		<li>array</li>
+		<li>function</li>
+		</ul>
+		
+		<h4>Variables</h4>
+		<p>JavaScript's variables are untyped.  JavaScript uses lexical scoping meaning variables declared outside a function are global or visible to the entire program.</p>
+		
+		<h4>Numbers</h4>
+		<p>JS does not make a distinction between integer values and floating-point or decimal values.  JS represents numbers using the 64-bit floating point format defined by IEEE 754.  It ranges from +/- 1.7976931348623157 * 10^308 to +/- 5 * 10^-324.  Integers range between -9007199254740992 to 9007199254740992.  Array indexing and bitwise operators are performed on 32-bit integers.  Preceding a numeric literal with 0x will make it hexadecimal.  Floating point literals may use e or E followed by an optional plus or minus sign followed by an integer exponent.  This represents the number multiplied by 10 to the power of the exponent.  For overflow, underflow, or division by zero the result is a special infinity value or NaN.</p>
+		
+		<h4>Arithmetic</h4>
+		<p>Arithmetic operators are '+', '-', '*', '/', '%'.  The Math object also has a set of functions and constants for more complex operations.</p>
+	</div>
+</div>
+
+<!-- end Main Content -->
+
+<!-- Accordion for Links -->
+		<script>$(".container").append(link_string.join(" "));</script>
+
+</div> <!-- end container -->
+
+<!-- javascript -->
+		
+		<script>
+			$('a.btn-info').tooltip()
+		</script>
+		
+</body>
+</html>
