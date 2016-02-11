@@ -1,0 +1,48 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	
+/*
+	background-image: url("../images/bg_gray_radial_1.png");
+	background-repeat: no-repeat;
+*/
+}
+
+body{
+	/*padding-top: 70px;*/
+	background-color: transparent;
+	height: 100%;
+}
+
+.container{
+	/* background-color: #FFFFFF;*/
+}
+
+#contact_info{
+	text-align: center;
+}
+
+#bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+.link{
+	width: 20%;
+	height: 10%;
+}
+
+#footer_img{
+	position: fixed;
+	top: 200;
+	left: 0;
+	min-width: 100%;
+	/*min-height: 100%;*/
+	z-index: 0;
+}

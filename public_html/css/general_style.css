@@ -1,11 +1,128 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	
+/*
+	background-image: url("../images/bg_gray_radial_1.png");
+	background-repeat: no-repeat;
+*/
+}
+
 body{
-	padding-top: 70px;
+	/*padding-top: 70px;*/
+	background-color: transparent;
+	height: 100%;
 }
 
 .container{
-	background-color: #FFFFFF;
+	/* background-color: #FFFFFF;*/
 }
 
 #contact_info{
 	text-align: center;
+}
+
+#bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.link{
+	width: 20%;
+	height: 10%;
+}
+
+#footer_img{
+	position: fixed;
+	top: 200;
+	left: 0;
+	min-width: 100%;
+	/*min-height: 100%;*/
+	z-index: 0;
+}
+
+#projects_link{
+	position: absolute;
+	top: 26%;
+	left: 18%;
+	width: 20%;
+	height: 10%;
+}
+
+#about_me_link{
+	position: absolute;
+	top: 35%;
+	left: 18%;
+	width: 20%;
+	height: 10%;
+}
+
+#contact_link{
+	position: absolute;
+	top: 43%;
+	left: 19%;
+	width: 20%;
+	height: 10%;
+}
+
+#some_code_link{
+	position: absolute;
+	top: 51%;
+	left: 19%;
+	width: 20%;
+	height: 10%;
+}
+
+#doodle_link{
+	position: absolute;
+	top: 90%;
+	left: 19%;
+	width: 20%;
+	height: 10%;
+}
+
+#sun_link{
+	position: absolute;
+	top: 3%;
+	right: 2%;
+	width: 15%;
+	height: 10%;
+}
+
+#examples_link{
+	position: absolute;
+	top: 26%;
+	left: 18%;
+	width: 20%;
+	height: 10%;
+}
+
+#welcome{
+	position: absolute;
+	bottom: 11%;
+	right: 8%;
+	width: 20%;
+	height: 10%;
+}
+
+#web_portfolio{
+	position: absolute;
+	bottom: 5%;
+	right: 8%;
+	width: 20%;
+	height: 10%;
+}
+
+#mark{
+	position: absolute;
+	bottom: 0%;
+	right: 8%;
+	width: 20%;
+	height: 10%;
 }

@@ -2,7 +2,7 @@
 // link_string - brings in links accordion and footer
 
 var link_string =  [
-		"<h3>Other Links</h3>",
+		'<h3>Other Links</h3><div class="row">',
 				"<div class=\"panel-group\" id=\"accordion\">",
 						"<div class=\"panel panel-default\">",
 								"<div class=\"panel-heading\">",
@@ -63,7 +63,7 @@ var link_string =  [
 										"</div>",
 								"</div>",
 						"</div>",
-				"</div>",
+				'</div></div>',
 				'<footer id="contact_info" class="row">',
 						"<p> ",
 						"Contact Info:<br>",
