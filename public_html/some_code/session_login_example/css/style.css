@@ -1,0 +1,36 @@
+body{
+	padding-top: 70px;
+}
+
+.container{
+	background-color: #FFFFFF;
+}
+
+#about_me{
+	border-bottom-style: dotted;
+	padding-bottom: 10px;
+}
+
+#my_projects{
+	border-bottom-style: dotted;
+	padding-bottom: 10px;
+}
+
+#mainModalLabel{
+	text-align: center;
+}
+
+.thumb{
+	width: 100px;
+	height: 200px;
+	display: table-cell;
+	border: 3px solid;
+}
+
+.screenshot{
+	margin: 5px;
+	padding: 5px;
+}
+#contact_info{
+	text-align: center;
+}
